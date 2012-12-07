@@ -3,6 +3,8 @@ Zombie-Cookies
 
 Zombie quotes complex cookies improperly which causes errors when reloading them.
 
+See issue [#451](https://github.com/assaf/zombie/issues/451)
+
 ### Tip
 
 Install the modules and install mocha globally
