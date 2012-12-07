@@ -18,6 +18,7 @@ describe("visit", function() {
     browser
       .visit('http://localhost:1337/')
       .then(function(){
+        // this fails
         assert.equal(browser.lastRequest.headers.cookie, 's={"foo":"bar"}')
       })
       .then(done, done)
