@@ -1,7 +1,7 @@
 Zombie-Cookies
 ==============
 
-Zombie quotes cookies improperly which causes errors when reloading them.
+Zombie quotes complex cookies improperly which causes errors when reloading them.
 
 ### Tip
 Install the modules and install mocha globally
@@ -61,3 +61,5 @@ describe("visit", function() {
 
   AssertionError: "s=\"{\"foo\":\"bar\"}\"" == "s={\"foo\":\"bar\"}"
 ```
+
+Note the extra quotes around `{"foo":"bar"}`, they shouldn't be there.
